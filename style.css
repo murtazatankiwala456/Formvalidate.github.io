@@ -1,0 +1,69 @@
+body{
+    font-family: 'Solitreo', cursive;
+    background-color: #06d6a0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+
+#form{
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+}
+#form h1{
+    text-align: center;
+}
+
+#form .input-control{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#form .input-control input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    
+}
+
+#form .input-control :focus{
+    outline: none;
+}
+#form .btn{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#form button{
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #06d6a0;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+#form .input-control.error input{
+   border-color: #ef233c;
+}
+#form .input-control.success input{
+   border-color: #06d6a0 ;
+
+}
+
+#form .input-control .error{
+    color: #ef233c;
+    font-size: 19px;
+    height: 13px;
+}
+
+
